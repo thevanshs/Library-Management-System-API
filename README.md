@@ -17,23 +17,16 @@ To run the API locally, follow the steps below:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/thevanshs/Library-Management-System-API.git
-    cd book-management-api
+    [git clone https://github.com/thevanshs/Library-Management-System-API.git](https://github.com/thevanshs/Library-Management-System-API.git)
     ```
-
-2. Install dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Apply database migrations:
+    
+2. Apply database migrations:
 
     ```bash
     python manage.py migrate
     ```
 
-4. Run the development server:
+3. Run the development server:
 
     ```bash
     python manage.py runserver
